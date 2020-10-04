@@ -1,0 +1,1 @@
+alert("Spring Boot link JS");

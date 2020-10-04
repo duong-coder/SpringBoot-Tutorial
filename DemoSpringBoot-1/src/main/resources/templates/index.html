@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+ <h1 th:text="#{name}"></h1>
+ 
+ <h1 th:text="${applicationValue}"></h1>
+ 
+ <h1 th:text="${applicationEnvironment}"></h1>
+ 
+ <p th:text="${message}"></p> 
+ 
+ <p th:text="${messageSource}"></p>
+ 
+ <p th:text="${messageEnvironment}"></p>
+ <img alt="" th:src="@{/image/6.jpg}">
+ <script type="text/javascript" th:src="@{/js/alert.js}"></script>
+</body>
+</html>
